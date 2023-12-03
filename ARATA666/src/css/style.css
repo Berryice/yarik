@@ -1,0 +1,105 @@
+body{
+  margin: 0px;
+}
+header{
+  background-color: black;
+}
+.header{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: center;
+}
+.store_link{
+  font-family: 'Unutterable';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 65px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.store_catalog{
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.conteiner{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.product_row{
+  display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+.product{
+  margin-bottom: 60px;
+  display: flex;
+}
+.product_wrapper{
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product_img_wrapper{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.product_img{
+  height: 550px;
+  width: 550px;
+}
+.product_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product_name{
+  font-family: 'Rubik', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.product_price{
+  font-family: 'Rubik', sans-serif;
+  color: red;
+}
+.pre_footer{
+  background-color: black;
+}
+.footer{
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}   
+.footer_list{
+  list-style-type: none;
+}
+.footer_element_list{
+  font-size: 20px;
+  display: inline;
+  margin-right: 20px;
+}
+.footer_element_list_link{
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer_socials{
+  display: inline;
+}
+.footer_link_social{
+  width: 20px;
+  height: 20px;
+}
+.footer_logo_social{
+  width: 20px;
+  height: 20px;
+}
